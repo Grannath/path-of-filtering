@@ -1,0 +1,5 @@
+rootProject.name = 'path-of-filtering'
+
+include 'dsl'
+include 'examples'
+
