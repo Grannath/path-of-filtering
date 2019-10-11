@@ -42,53 +42,67 @@ enum class Classes(override val printName: String) : Printable {
 }
 
 fun weapons() =
-        listOf(Classes.CLAWS,
-               Classes.DAGGERS,
-               Classes.WANDS,
-               Classes.ONE_HAND_SWORDS,
-               Classes.THRUSTING_ONE_HAND_SWORDS,
-               Classes.ONE_HAND_AXES,
-               Classes.ONE_HAND_MACES,
-               Classes.SCEPTRES,
-               Classes.BOWS,
-               Classes.STAVES,
-               Classes.TWO_HAND_SWORDS,
-               Classes.TWO_HAND_AXES,
-               Classes.TWO_HAND_MACES)
+    listOf(
+        Classes.CLAWS,
+        Classes.DAGGERS,
+        Classes.WANDS,
+        Classes.ONE_HAND_SWORDS,
+        Classes.THRUSTING_ONE_HAND_SWORDS,
+        Classes.ONE_HAND_AXES,
+        Classes.ONE_HAND_MACES,
+        Classes.SCEPTRES,
+        Classes.BOWS,
+        Classes.STAVES,
+        Classes.TWO_HAND_SWORDS,
+        Classes.TWO_HAND_AXES,
+        Classes.TWO_HAND_MACES
+    )
 
 fun oneHandWeapons() =
-        listOf(Classes.CLAWS,
-               Classes.DAGGERS,
-               Classes.WANDS,
-               Classes.ONE_HAND_SWORDS,
-               Classes.THRUSTING_ONE_HAND_SWORDS,
-               Classes.ONE_HAND_AXES,
-               Classes.ONE_HAND_MACES,
-               Classes.SCEPTRES)
+    listOf(
+        Classes.CLAWS,
+        Classes.DAGGERS,
+        Classes.WANDS,
+        Classes.ONE_HAND_SWORDS,
+        Classes.THRUSTING_ONE_HAND_SWORDS,
+        Classes.ONE_HAND_AXES,
+        Classes.ONE_HAND_MACES,
+        Classes.SCEPTRES
+    )
 
 fun twoHandWeapons() =
-        listOf(Classes.STAVES,
-               Classes.TWO_HAND_SWORDS,
-               Classes.TWO_HAND_AXES,
-               Classes.TWO_HAND_MACES)
+    listOf(
+        Classes.STAVES,
+        Classes.TWO_HAND_SWORDS,
+        Classes.TWO_HAND_AXES,
+        Classes.TWO_HAND_MACES
+    )
 
 fun armour() =
-        listOf(Classes.GLOVES,
-               Classes.BOOTS,
-               Classes.BODY_ARMOURS,
-               Classes.HELMETS)
+    listOf(
+        Classes.GLOVES,
+        Classes.BOOTS,
+        Classes.BODY_ARMOURS,
+        Classes.HELMETS
+    )
 
 fun jewelry() =
-        listOf(Classes.AMULETS,
-               Classes.RINGS,
-               Classes.BELTS)
+    listOf(
+        Classes.AMULETS,
+        Classes.RINGS,
+        Classes.BELTS
+    )
 
 fun flasks() =
-        listOf(Classes.LIFE_FLASKS,
-               Classes.MANA_FLASKS,
-               Classes.HYBRID_FLASKS,
-               Classes.UTILITY_FLASKS)
+    listOf(
+        Classes.LIFE_FLASKS,
+        Classes.MANA_FLASKS,
+        Classes.HYBRID_FLASKS,
+        Classes.UTILITY_FLASKS
+    )
 
 fun skillGems() =
-        listOf(Classes.ACTIVE_SKILL_GEMS,
-               Classes.SUPPORT_SKILL_GEMS)
+    listOf(
+        Classes.ACTIVE_SKILL_GEMS,
+        Classes.SUPPORT_SKILL_GEMS
+    )
