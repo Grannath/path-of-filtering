@@ -1,3 +1,3 @@
-# path-of-filtering
+Moved to GitLab
 
-DSL to generate Path of Exile item filters
+https://gitlab.com/grannath/path-of-filtering
